@@ -1,0 +1,25 @@
+{
+ "profile": "[settings]\narch=x86_64\narch_build=x86_64\nbuild_type=Release\ncompiler=gcc\ncompiler.libcxx=libstdc++\ncompiler.version=7\nos=Linux\nos_build=Linux\n[options]\n[build_requires]\n[env]\n",
+ "graph_lock": {
+  "nodes": {
+   "765ce227-fa6f-11e9-894e-000c29a05417": {
+    "pref": "None/None@yar/testing:bfac810e0c65ffe59ed6382e66f28b5dc85dbe3d",
+    "options": "gtest:build_gmock=True\ngtest:fPIC=True\ngtest:no_main=False\ngtest:shared=False\nsupermarket_checkout:shared=False",
+    "requires": {
+     "gtest/1.8.1@bincrafters/stable#0": "765ce225-fa6f-11e9-894e-000c29a05417",
+     "supermarket_checkout/0.1.0@yar/testing#d2cd386b1629ad25507b71cf87edec4f": "765ce226-fa6f-11e9-894e-000c29a05417"
+    },
+    "path": "/home/yar/cpp-project/supermarket_checkout/test_package/conanfile.py"
+   },
+   "765ce226-fa6f-11e9-894e-000c29a05417": {
+    "pref": "supermarket_checkout/0.1.0@yar/testing#d2cd386b1629ad25507b71cf87edec4f:0ab9fcf606068d4347207cc29edd400ceccbc944#08d3e0a4c8d04301eb9bfefe3891e38a",
+    "options": "shared=False"
+   },
+   "765ce225-fa6f-11e9-894e-000c29a05417": {
+    "pref": "gtest/1.8.1@bincrafters/stable#0:4a8c5b4cd3b4d45b83fff85d53160ea02ae5fa2d#0",
+    "options": "build_gmock=True\nfPIC=True\nno_main=False\nshared=False"
+   }
+  }
+ },
+ "version": "0.1"
+}
